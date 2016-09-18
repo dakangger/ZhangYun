@@ -22,7 +22,9 @@
 
 -(void)createUI
 {
-
+    UIView *view=[[UIView alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
+    view.backgroundColor=[UIColor greenColor];
+    [self.view addSubview:view];
 
 }
 - (void)didReceiveMemoryWarning {
